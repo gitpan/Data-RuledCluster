@@ -23,8 +23,10 @@ no_index:
     - t
     - xt
 requires:
+  Class::Load: 0
+  Data::Util: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/nekokak/p5-Data-RuledCluster.git
-version: 0.02
+version: 0.03
