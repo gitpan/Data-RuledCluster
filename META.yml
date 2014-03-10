@@ -3,6 +3,8 @@ abstract: 'clustering data resolver'
 author:
   - 'Atsushi Kobayashi <nekokak@gmail.com>'
 build_requires:
+  DBD::SQLite: 0
+  DBI: 0
   ExtUtils::MakeMaker: 6.59
   Test::More: 0.88
   Test::Requires: 0.06
@@ -29,4 +31,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/nekokak/p5-Data-RuledCluster.git
-version: 0.04
+version: 0.05
